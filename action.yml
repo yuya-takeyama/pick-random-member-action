@@ -1,0 +1,13 @@
+name: 'Pick random member'
+description: 'Pick a random member from a team in GitHub Issues/Pull Requests'
+author: 'Yuya Takeyama'
+branding:
+  icon: 'users'
+  color: 'gray-dark'
+inputs:
+  github-token:
+    required: false
+    description: 'GitHub API token'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
