@@ -1,6 +1,6 @@
 {
   "name": "@yuya-takeyama/pick-random-member-action",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Pick a random member from a team in GitHub Issues/Pull Requests",
   "main": "lib/main.js",
