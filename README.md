@@ -20,7 +20,7 @@ jobs:
     if: startsWith(github.event.comment.body, '/random ')
     runs-on: ubuntu-latest
     steps:
-      - uses: yuya-takeyama/pick-random-member-action@v0.1.0
+      - uses: yuya-takeyama/pick-random-member-action@v0.1.1
         with:
           github-token: ${{ secrets.YOUR_GITHUB_TOKEN_WITH_REPO_SCOPE }}
           ignored-members: 'bot1,bot2'
