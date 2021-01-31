@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: yuya-takeyama/pick-random-member-action@v0.1.0
         with:
-          github-token: ${{ secrets.QUIPPERTECH_GITHUB_API_TOKEN }}
+          github-token: ${{ secrets.YOUR_GITHUB_TOKEN_WITH_REPO_SCOPE }}
           ignored-members: 'bot1,bot2'
 ```
 
@@ -31,7 +31,7 @@ jobs:
 | Name              | Required | Default | Description                               |
 |-------------------|----------|---------|-------------------------------------------|
 | `github-token`    | `true`   |         | GitHub API token                          |
-| `ignored-members` | `true`   |         | Comma-separated list of members to ignore |
+| `ignored-members` | `false`  |         | Comma-separated list of members to ignore |
 
 ### Required scopes for `github-token`
 
